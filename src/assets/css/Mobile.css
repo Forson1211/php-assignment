@@ -1,0 +1,101 @@
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .container {
+      width: 95%;
+  }
+  
+  .logo h1 {
+      font-size: 1.5rem;
+  }
+  
+  .main-nav {
+      position: fixed;
+      top: 70px;
+      left: -100%;
+      width: 80%;
+      height: calc(100vh - 70px);
+      background-color: white;
+      box-shadow: var(--box-shadow);
+      transition: var(--transition);
+      z-index: 999;
+  }
+  
+  .main-nav.active {
+      left: 0;
+  }
+  
+  .main-nav ul {
+      flex-direction: column;
+      padding: 20px;
+  }
+  
+  .main-nav ul li {
+      margin: 0;
+      border-bottom: 1px solid #eee;
+  }
+  
+  .main-nav ul li a {
+      padding: 15px 0;
+  }
+  
+  .dropdown-menu {
+      position: static;
+      opacity: 1;
+      visibility: visible;
+      box-shadow: none;
+      padding: 0;
+      margin-left: 15px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  
+  .mobile-menu-btn {
+      display: block;
+  }
+  
+  .hero {
+      height: 60vh;
+      margin-top: 60px;
+  }
+  
+  .hero-content h2 {
+      font-size: 2rem;
+  }
+  
+  .hero-content p {
+      font-size: 1rem;
+  }
+  
+  .section-header h2 {
+      font-size: 2rem;
+  }
+  
+  .slide {
+      height: 300px;
+  }
+  
+  .slide-caption h3 {
+      font-size: 1.3rem;
+  }
+  
+  .auth-form {
+      padding: 20px;
+  }
+  
+  .dashboard-grid {
+      grid-template-columns: 1fr;
+  }
+  
+  .profile-actions {
+      flex-direction: column;
+  }
+  
+  .cookie-content {
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .cookie-buttons {
+      margin-top: 10px;
+  }
+}
