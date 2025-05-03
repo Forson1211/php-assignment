@@ -11,7 +11,7 @@
 </html>
 <?php
 $pageTitle = "About Plastic";
-require_once '/server/header.php';
+require_once 'header.php';
 ?>
 
 <main>

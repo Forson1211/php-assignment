@@ -1,5 +1,5 @@
 <?php
-require_once 'server/Config.php';
+require_once 'Config.php';
 
 // Generate registration number
 function generateRegistrationNumber() {

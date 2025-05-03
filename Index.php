@@ -6,10 +6,10 @@
 <body>
 <?php
 $pageTitle = "Home";
-require_once 'server/Header.php';
+require_once 'Header.php';
 
 // Track visitor
-require_once 'server/Functions.php';
+require_once 'Functions.php';
 // logVisitor();
 
 // Get visitor count
@@ -133,6 +133,6 @@ $visitorCount = $stmt->fetch()['count'];
     </div>
 </div>
 
-<?php require_once 'server/footer.php'; ?>
+<?php require_once 'footer.php'; ?>
 </body>
 </html>

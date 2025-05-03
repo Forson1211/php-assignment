@@ -8,11 +8,10 @@
     <?php
     echo "<p>This paragraph is styled with external CSS.</p>";
     ?>
-</body>
 </html>
 <?php
-require_once 'server/Config.php';
-require_once 'server/Functions.php';
+require_once 'Config.php';
+require_once 'Functions.php';
 
 $pageTitle = "Login";
 $error = '';
@@ -104,3 +103,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     </div>
 </main>
+</body>
+</html>
