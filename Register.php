@@ -5,8 +5,8 @@
 <link rel="stylesheet" href="src/assets/assets/css/mobile.css" media="screen and (max-width: 768px)">
 </head>
 <?php
-require_once 'server/Config.php';
-require_once 'server/functions.php';
+require_once 'Config.php';
+require_once 'Functions.php';
 
 $pageTitle = "Register";
 $error = '';
@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-require_once 'server/header.php';
+require_once 'Header.php';
 ?>
 
 <main class="auth-page">
@@ -95,4 +95,4 @@ require_once 'server/header.php';
     </div>
 </main>
 
-<?php require_once 'server/footer.php'; ?>
+<?php require_once 'footer.php'; ?>

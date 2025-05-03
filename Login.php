@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="src/assets/css/Style.css">
-<link rel="stylesheet" href="src/assets/css/mobile.css" media="screen and (max-width: 768px)">
+<link rel="stylesheet" type="text/css" href="/Style.css">
+<link rel="stylesheet" href="mobile.css" media="screen and (max-width: 768px)">
 </head>
 <body>
     <?php
@@ -92,13 +92,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <input type="password" id="password" name="password" required>
                 </div>
                 <div class="form-group">
-                    <a href="forgot-password.php" class="server/pages/forgot-password">Forgot Password?</a>
+                    <a href="forgot-password.php" class="forgot-password">Forgot Password?</a>
                 </div>
                 <button type="submit" class="btn-primary">Login</button>
             </form>
             
             <div class="auth-links">
-                <p>Don't have an account? <a href="server/pages/register.php">Register here</a></p>
+                <p>Don't have an account? <a href="register.php">Register here</a></p>
             </div>
         </div>
     </div>

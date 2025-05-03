@@ -23,20 +23,20 @@ require_once 'Functions.php';?>
                     <li class="dropdown">
                         <a href="about.php">About Plastic <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="server/pages/about.php">What to Do</a></li>
-                            <li><a href="server/pages/strategy.php">Our Strategy</a></li>
-                            <li><a href="server/pages/campaigns.php">Campaigns</a></li>
+                            <li><a href="about.php">What to Do</a></li>
+                            <li><a href="strategy.php">Our Strategy</a></li>
+                            <li><a href="campaigns.php">Campaigns</a></li>
                         </ul>
                     </li>
                     <li><a href="latest.php">Latest News</a></li>
                     <li><a href="help.php">How to Help</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                     <?php if (isLoggedIn()): ?>
-                        <li><a href="server/pages/dashboard.php">Dashboard</a></li>
-                        <li><a href="server/pages/logout.php">Logout</a></li>
+                        <li><a href="dashboard.php">Dashboard</a></li>
+                        <li><a href="logout.php">Logout</a></li>
                     <?php else: ?>
-                        <li><a href="server/pages/login.php">Login</a></li>
-                        <li><a href="server/pages/register.php">Register</a></li>
+                        <li><a href="login.php">Login</a></li>
+                        <li><a href="register.php">Register</a></li>
                     <?php endif; ?>
                 </ul>
             </nav>
@@ -56,10 +56,10 @@ require_once 'Functions.php';?>
         </div>
     </div>
 
-    <script src="server/src/assets/js/main.js"></script>
-    <script src="server/src/assets/js/cookies.js"></script>
+    <script src="main.js"></script>
+    <script src="cookies.js"></script>
     <?php if (basename($_SERVER['PHP_SELF']) == 'index.php'): ?>
-        <script src="server/src/assets/js/slider.js"></script>
+        <script src="slider.js"></script>
     <?php endif; ?>
 </body>
 </html>

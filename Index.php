@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="src/assets/css/Style.css?v=1.0">
+<link rel="stylesheet" type="text/css" href="Style.css?v=1.0">
 </head>
 <body>
 <?php
