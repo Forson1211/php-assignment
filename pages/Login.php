@@ -88,9 +88,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <label for="password">Password</label>
                         <input type="password" id="password" name="password" required>
                     </div>
-                    <div class="form-group">
-                        <a href="/php-assignment/forget-password" class="forgot-password">Forgot Password?</a>
-                    </div>
 
                     <button type="submit" class="animated-button">
                         <span>Login</span>
@@ -99,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </form>
                 
                 <div class="auth-links">
-                    <p>Don't have an account? <a href="/php-assignment/register">Register here</a></p>
+                    <p>Don't have an account? <a href="register">Register here</a></p>
                 </div>
             </div>
         </div>
